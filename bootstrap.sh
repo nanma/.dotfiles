@@ -2,7 +2,7 @@
 #建立各项配置文件的软链，请做好相应文件的备份！
 
 #shell设置
-#安装oh-my-zsh
+#安装oh-my-zsh(https://github.com/robbyrussell/oh-my-zsh)
 curl -L http://install.ohmyz.sh | sh
 
 #链接shell文件
@@ -17,7 +17,7 @@ source ~/.zshrc
 source ~/.bash_profile
 
 #emacs设置
-#安装emacs配置prelude
+#安装emacs配置prelude(https://github.com/bbatsov/prelude)
 curl -L http://git.io/epre | sh
 
 #链接emacs文件
