@@ -9,5 +9,6 @@
 # 使用方法
 1. 如果需要，请先备份好$HOME目录下的配置文件；
 2. `cd ~ && git clone git@github.com:nanma/.dotfiles.git`；
-3. `~/.dotfiles/bootstrap.sh`；
-4. 配置完成。
+3. 如果有敏感信息不宜暴露，可以新建文件~/.dotfiles/doeshells/.sensitive，将这些信息添加到文件中；
+4. `~/.dotfiles/bootstrap.sh`；
+5. 配置完成。
