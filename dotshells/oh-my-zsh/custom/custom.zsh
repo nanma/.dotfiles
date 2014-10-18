@@ -3,6 +3,13 @@
 #
 # brainstormr=/Users/robbyrussell/Projects/development/planetargon/brainstormr
 #
+
+sensitive=~/.dotfiles/dotshells/.sensitive
+#加载不宜公开的个人数据
+test -e $sensitive && {
+    source $sensitive
+}
+
 alias reload_zsh=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
@@ -16,8 +23,3 @@ alias emacs="~/workspace/script/emacs_client.sh -t"
 alias em="emacs"
 alias emasc="emacs"
 alias emd="emacs -e '(kill-emacs)'"
-
-#加载不宜公开的个人数据
-test -e ../../.sensitive && {
-    source ../../.sensitive
-}
