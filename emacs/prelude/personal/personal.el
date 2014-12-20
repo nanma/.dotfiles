@@ -29,9 +29,11 @@
 ;(add-to-list 'load-path "~/.emacs.d/personal")
 
 ;; org-mode
-;(add-to-list 'load-path "~/.emacs.d/personal/org-8.2.10/lisp")
-;(add-to-list 'load-path "~/.emacs.d/personal/org-8.2.10/contrib/lisp")
+(add-to-list 'load-path "~/.emacs.d/personal/org-8.2.10/lisp")
+(add-to-list 'load-path "~/.emacs.d/personal/org-8.2.10/contrib/lisp")
+(setq org-src-fontify-natively t)
 
+;;for blog
 (add-to-list 'load-path "~/.emacs.d/personal/org-publish-meta")
 (add-hook 'org-mode-hook
         (lambda ()
@@ -42,7 +44,7 @@
 
 ;;picture export
 (setq org-ditaa-jar-path "~/.emacs.d/personal/ditaa0_9.jar")
-;;(setq org-plantuml-jar-path "~/java/plantuml.jar")
+(setq org-plantuml-jar-path "~/.emacs.d/personal/plantuml.8015.jar")
 
 (add-hook 'org-babel-after-execute-hook 'bh/display-inline-images 'append)
 
