@@ -80,7 +80,7 @@
 ; Use fundamental mode when editing plantuml blocks with C-c '
 ;;(add-to-list 'org-src-lang-modes (quote ("plantuml" . fundamental)))
 
-(load-file "~/.emacs.d/personal/graphviz-dot-mode.el")
+;;(load-file "~/.emacs.d/personal/graphviz-dot-mode.el")
 
 (provide 'personal)
 ;;; personal ends here
