@@ -28,7 +28,7 @@
 
 ;(add-to-list 'load-path "~/.emacs.d/personal")
 
-;; org-mode
+; org-mode
 (add-to-list 'load-path "~/.emacs.d/personal/org-8.2.10/lisp")
 (add-to-list 'load-path "~/.emacs.d/personal/org-8.2.10/contrib/lisp")
 (setq org-src-fontify-natively t)
@@ -81,6 +81,7 @@
 ;;(add-to-list 'org-src-lang-modes (quote ("plantuml" . fundamental)))
 
 ;;(load-file "~/.emacs.d/personal/graphviz-dot-mode.el")
+
 
 (provide 'personal)
 ;;; personal ends here

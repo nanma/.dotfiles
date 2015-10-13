@@ -19,7 +19,7 @@ alias show_hidden="defaults write com.apple.finder AppleShowAllFiles -bool true 
 alias hide_hidden="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
 # Emacs设置
-alias emacs="~/workspace/script/emacs_client.sh -t"
+alias emacs="~/.dotfiles/emacs/emacs_client.sh -t"
 alias em="emacs"
 alias emasc="emacs"
 alias emd="emacs -e '(kill-emacs)'"
