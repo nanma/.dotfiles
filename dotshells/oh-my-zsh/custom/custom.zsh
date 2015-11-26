@@ -23,3 +23,11 @@ alias emacs="~/workspace/script/emacs_client.sh -t"
 alias em="emacs"
 alias emasc="emacs"
 alias emd="emacs -e '(kill-emacs)'"
+
+alias mysql=/usr/local/mysql/bin/mysql
+alias mysqladmin=/usr/local/mysql/bin/mysqladmin
+alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+
+# javac编译显示为英文提示
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8

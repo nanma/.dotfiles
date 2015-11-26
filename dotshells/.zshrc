@@ -79,3 +79,9 @@ export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/l
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/"
+export M2_HOME="/usr/local/dev/apache-maven-3.3.3"
+export CATALINA_HOME="/usr/local/dev/apache-tomcat-7.0.41"
+export CATALINA_BASE="/usr/local/dev/apache-tomcat-7.0.41"
+export PATH=$M2_HOME/bin:$PATH
